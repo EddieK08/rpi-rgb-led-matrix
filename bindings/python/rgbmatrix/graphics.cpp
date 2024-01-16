@@ -3262,7 +3262,7 @@ static PyTypeObject __pyx_type_9rgbmatrix_8graphics_Color = {
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_9rgbmatrix_8graphics_Color, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   #endif
   #if PY_VERSION_HEX >= 0x030800b4
   0, /*tp_vectorcall_offset*/
@@ -3320,7 +3320,7 @@ static PyTypeObject __pyx_type_9rgbmatrix_8graphics_Color = {
   0, /*tp_vectorcall*/
   #endif
   #if PY_VERSION_HEX >= 0x030800b4 && PY_VERSION_HEX < 0x03090000
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   #endif
   #if CYTHON_COMPILING_IN_PYPY && PY_VERSION_HEX >= 0x03090000
   0, /*tp_pypy_flags*/
