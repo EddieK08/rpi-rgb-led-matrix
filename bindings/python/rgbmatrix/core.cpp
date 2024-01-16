@@ -8486,7 +8486,7 @@ static PyTypeObject __pyx_type_9rgbmatrix_4core_Canvas = {
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_9rgbmatrix_4core_Canvas, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   #endif
   #if PY_VERSION_HEX >= 0x030800b4
   0, /*tp_vectorcall_offset*/
@@ -8544,7 +8544,7 @@ static PyTypeObject __pyx_type_9rgbmatrix_4core_Canvas = {
   0, /*tp_vectorcall*/
   #endif
   #if PY_VERSION_HEX >= 0x030800b4 && PY_VERSION_HEX < 0x03090000
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   #endif
   #if CYTHON_COMPILING_IN_PYPY && PY_VERSION_HEX >= 0x03090000
   0, /*tp_pypy_flags*/
@@ -8638,7 +8638,7 @@ static PyTypeObject __pyx_type_9rgbmatrix_4core_FrameCanvas = {
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_9rgbmatrix_4core_FrameCanvas, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   #endif
   #if PY_VERSION_HEX >= 0x030800b4
   0, /*tp_vectorcall_offset*/
@@ -8696,7 +8696,7 @@ static PyTypeObject __pyx_type_9rgbmatrix_4core_FrameCanvas = {
   0, /*tp_vectorcall*/
   #endif
   #if PY_VERSION_HEX >= 0x030800b4 && PY_VERSION_HEX < 0x03090000
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   #endif
   #if CYTHON_COMPILING_IN_PYPY && PY_VERSION_HEX >= 0x03090000
   0, /*tp_pypy_flags*/
@@ -8811,7 +8811,7 @@ static PyTypeObject __pyx_type_9rgbmatrix_4core_RGBMatrix = {
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_9rgbmatrix_4core_RGBMatrix, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   #endif
   #if PY_VERSION_HEX >= 0x030800b4
   0, /*tp_vectorcall_offset*/
@@ -8869,7 +8869,7 @@ static PyTypeObject __pyx_type_9rgbmatrix_4core_RGBMatrix = {
   0, /*tp_vectorcall*/
   #endif
   #if PY_VERSION_HEX >= 0x030800b4 && PY_VERSION_HEX < 0x03090000
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   #endif
   #if CYTHON_COMPILING_IN_PYPY && PY_VERSION_HEX >= 0x03090000
   0, /*tp_pypy_flags*/
@@ -9258,7 +9258,7 @@ static PyTypeObject __pyx_type_9rgbmatrix_4core_RGBMatrixOptions = {
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_9rgbmatrix_4core_RGBMatrixOptions, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   #endif
   #if PY_VERSION_HEX >= 0x030800b4
   0, /*tp_vectorcall_offset*/
@@ -9316,7 +9316,7 @@ static PyTypeObject __pyx_type_9rgbmatrix_4core_RGBMatrixOptions = {
   0, /*tp_vectorcall*/
   #endif
   #if PY_VERSION_HEX >= 0x030800b4 && PY_VERSION_HEX < 0x03090000
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   #endif
   #if CYTHON_COMPILING_IN_PYPY && PY_VERSION_HEX >= 0x03090000
   0, /*tp_pypy_flags*/
@@ -9615,7 +9615,7 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_vtable_9rgbmatrix_4core_Canvas.__pyx___getCanvas = (rgb_matrix::Canvas *(*)(struct __pyx_obj_9rgbmatrix_4core_Canvas *))__pyx_f_9rgbmatrix_4core_6Canvas___getCanvas;
   if (PyType_Ready(&__pyx_type_9rgbmatrix_4core_Canvas) < 0) __PYX_ERR(0, 8, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
-  __pyx_type_9rgbmatrix_4core_Canvas.tp_print = 0;
+  __pyx_type_9rgbmatrix_4core_Canvas.tp_vectorcall_offset = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_9rgbmatrix_4core_Canvas.tp_dictoffset && __pyx_type_9rgbmatrix_4core_Canvas.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_9rgbmatrix_4core_Canvas.tp_getattro = __Pyx_PyObject_GenericGetAttr;
@@ -9631,7 +9631,7 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_type_9rgbmatrix_4core_FrameCanvas.tp_base = __pyx_ptype_9rgbmatrix_4core_Canvas;
   if (PyType_Ready(&__pyx_type_9rgbmatrix_4core_FrameCanvas) < 0) __PYX_ERR(0, 56, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
-  __pyx_type_9rgbmatrix_4core_FrameCanvas.tp_print = 0;
+  __pyx_type_9rgbmatrix_4core_FrameCanvas.tp_vectorcall_offset = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_9rgbmatrix_4core_FrameCanvas.tp_dictoffset && __pyx_type_9rgbmatrix_4core_FrameCanvas.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_9rgbmatrix_4core_FrameCanvas.tp_getattro = __Pyx_PyObject_GenericGetAttr;
@@ -9647,7 +9647,7 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_type_9rgbmatrix_4core_RGBMatrix.tp_base = __pyx_ptype_9rgbmatrix_4core_Canvas;
   if (PyType_Ready(&__pyx_type_9rgbmatrix_4core_RGBMatrix) < 0) __PYX_ERR(0, 196, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
-  __pyx_type_9rgbmatrix_4core_RGBMatrix.tp_print = 0;
+  __pyx_type_9rgbmatrix_4core_RGBMatrix.tp_vectorcall_offset = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_9rgbmatrix_4core_RGBMatrix.tp_dictoffset && __pyx_type_9rgbmatrix_4core_RGBMatrix.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_9rgbmatrix_4core_RGBMatrix.tp_getattro = __Pyx_PyObject_GenericGetAttr;
@@ -9658,7 +9658,7 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_ptype_9rgbmatrix_4core_RGBMatrix = &__pyx_type_9rgbmatrix_4core_RGBMatrix;
   if (PyType_Ready(&__pyx_type_9rgbmatrix_4core_RGBMatrixOptions) < 0) __PYX_ERR(0, 91, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
-  __pyx_type_9rgbmatrix_4core_RGBMatrixOptions.tp_print = 0;
+  __pyx_type_9rgbmatrix_4core_RGBMatrixOptions.tp_vectorcall_offset = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_9rgbmatrix_4core_RGBMatrixOptions.tp_dictoffset && __pyx_type_9rgbmatrix_4core_RGBMatrixOptions.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_9rgbmatrix_4core_RGBMatrixOptions.tp_getattro = __Pyx_PyObject_GenericGetAttr;
