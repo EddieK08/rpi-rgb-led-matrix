@@ -3382,7 +3382,7 @@ static PyTypeObject __pyx_type_9rgbmatrix_8graphics_Font = {
   0, /*tp_itemsize*/
   __pyx_tp_dealloc_9rgbmatrix_8graphics_Font, /*tp_dealloc*/
   #if PY_VERSION_HEX < 0x030800b4
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   #endif
   #if PY_VERSION_HEX >= 0x030800b4
   0, /*tp_vectorcall_offset*/
@@ -3440,7 +3440,7 @@ static PyTypeObject __pyx_type_9rgbmatrix_8graphics_Font = {
   0, /*tp_vectorcall*/
   #endif
   #if PY_VERSION_HEX >= 0x030800b4 && PY_VERSION_HEX < 0x03090000
-  0, /*tp_print*/
+  0, /*tp_vectorcall_offset*/
   #endif
   #if CYTHON_COMPILING_IN_PYPY && PY_VERSION_HEX >= 0x03090000
   0, /*tp_pypy_flags*/
@@ -3673,7 +3673,7 @@ static int __Pyx_modinit_type_init_code(void) {
   /*--- Type init code ---*/
   if (PyType_Ready(&__pyx_type_9rgbmatrix_8graphics_Color) < 0) __PYX_ERR(1, 8, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
-  __pyx_type_9rgbmatrix_8graphics_Color.tp_print = 0;
+  __pyx_type_9rgbmatrix_8graphics_Color.tp_vectorcall_offset = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_9rgbmatrix_8graphics_Color.tp_dictoffset && __pyx_type_9rgbmatrix_8graphics_Color.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_9rgbmatrix_8graphics_Color.tp_getattro = __Pyx_PyObject_GenericGetAttr;
@@ -3683,7 +3683,7 @@ static int __Pyx_modinit_type_init_code(void) {
   __pyx_ptype_9rgbmatrix_8graphics_Color = &__pyx_type_9rgbmatrix_8graphics_Color;
   if (PyType_Ready(&__pyx_type_9rgbmatrix_8graphics_Font) < 0) __PYX_ERR(1, 26, __pyx_L1_error)
   #if PY_VERSION_HEX < 0x030800B1
-  __pyx_type_9rgbmatrix_8graphics_Font.tp_print = 0;
+  __pyx_type_9rgbmatrix_8graphics_Font.tp_vectorcall_offset = 0;
   #endif
   if ((CYTHON_USE_TYPE_SLOTS && CYTHON_USE_PYTYPE_LOOKUP) && likely(!__pyx_type_9rgbmatrix_8graphics_Font.tp_dictoffset && __pyx_type_9rgbmatrix_8graphics_Font.tp_getattro == PyObject_GenericGetAttr)) {
     __pyx_type_9rgbmatrix_8graphics_Font.tp_getattro = __Pyx_PyObject_GenericGetAttr;
